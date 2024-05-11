@@ -1,3 +1,3 @@
-import('./render').then(exports => {
-    exports.render()
-})
+import a from 'binaryen';
+
+console.log(a);
