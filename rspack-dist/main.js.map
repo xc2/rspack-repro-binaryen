@@ -1,0 +1,1 @@
+{"version":3,"file":"main.js","sources":["webpack://rspack-repro/./foo/index.js"],"sourcesContent":["\nconst url = require('url').fileURLToPath(new URL('./', import.meta.url));\n\nconsole.log('I\\'m not worker!', url);\n"],"names":["console","log","require","fileURLToPath","URL"],"mappings":"wPAGAA,QAAQC,GAAG,CAAC,kBAFAC,QAAQ,OAAOC,aAAa,CAAC,IAAIC,IAAI,4BAAqB,G"}

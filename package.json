@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "build": "npm-run-all build:* --sequential --print-name",
-    "build:rspack": "rspack -c rspack.config.js",
-    "build:webpack": "webpack -c rspack.config.js",
+    "build:rspack": "rspack -c rspack.config.js | tee rspack-build.log",
+    "build:webpack": "webpack -c rspack.config.js | tee webpack-build.log",
     "dev:rspack": "rspack dev -c rspack.config.js",
     "dev:webpack": "webpack serve -c rspack.config.js"
   },
@@ -14,9 +14,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@rspack/cli": "^0.6.3",
-    "@rspack/core": "^0.6.3",
-    "binaryen": "^117.0.0",
+    "@rspack/cli": "^0.6.5",
+    "@rspack/core": "^0.6.5",
     "webpack": "^5.90.3",
     "webpack-cli": "^5.1.4"
   },

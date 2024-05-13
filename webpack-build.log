@@ -1,0 +1,8 @@
+assets by status 105 bytes [cached] 1 asset
+asset main.js 1.14 KiB [compared for emit] [minimized] (name: main)
+runtime modules 1.91 KiB 5 modules
+cacheable modules 172 bytes (javascript) 114 bytes (asset)
+  ./src/index.js 16 bytes [built] [code generated]
+  ./foo/index.js 114 bytes [built] [code generated]
+  ./foo/index.js 42 bytes (javascript) 114 bytes (asset) [built] [code generated]
+webpack 5.91.0 compiled successfully in 104 ms

@@ -6,14 +6,11 @@ settings:
 
 dependencies:
   '@rspack/cli':
-    specifier: ^0.6.3
+    specifier: ^0.6.5
     version: 0.6.5(@rspack/core@0.6.5)(webpack-cli@5.1.4)(webpack@5.91.0)
   '@rspack/core':
-    specifier: ^0.6.3
+    specifier: ^0.6.5
     version: 0.6.5
-  binaryen:
-    specifier: ^117.0.0
-    version: 117.0.0
   webpack:
     specifier: ^5.90.3
     version: 5.91.0(webpack-cli@5.1.4)
@@ -692,11 +689,6 @@ packages:
   /binary-extensions@2.3.0:
     resolution: {integrity: sha512-Ceh+7ox5qe7LJuLHoY0feh3pHuUDHAcRUeyL2VYghZwfpkNIy/+8Ocg0a3UuSoYzavmylwuLWQOf3hl0jjMMIw==}
     engines: {node: '>=8'}
-    dev: false
-
-  /binaryen@117.0.0:
-    resolution: {integrity: sha512-1D+O881OXxY737WPKfIgEscCn3vWGqTsd0m5nGKzvbtadVYw5pZ3eebineH/oV5c/rAW80Bojrsa6firSSIsUw==}
-    hasBin: true
     dev: false
 
   /body-parser@1.20.2:
@@ -3019,7 +3011,7 @@ packages:
     peerDependencies:
       webpack: ^4.0.0 || ^5.0.0
     dependencies:
-      colorette: 2.0.19
+      colorette: 2.0.20
       memfs: 3.5.3
       mime-types: 2.1.35
       range-parser: 1.2.1
@@ -3036,7 +3028,7 @@ packages:
       webpack:
         optional: true
     dependencies:
-      colorette: 2.0.19
+      colorette: 2.0.20
       memfs: 3.5.3
       mime-types: 2.1.35
       range-parser: 1.2.1
@@ -3067,7 +3059,7 @@ packages:
       ansi-html-community: 0.0.8
       bonjour-service: 1.2.1
       chokidar: 3.5.3
-      colorette: 2.0.19
+      colorette: 2.0.20
       compression: 1.7.4
       connect-history-api-fallback: 2.0.0
       default-gateway: 6.0.3

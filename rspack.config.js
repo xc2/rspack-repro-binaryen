@@ -9,7 +9,6 @@ module.exports = function (env) {
     mode: "none",
     entry: {main: "./src"},
     optimization: {
-      // when minimize is on, importing binaryen will produce error "'import.meta' cannot be used outside of module code"
       minimize: true,
     },
     output: {

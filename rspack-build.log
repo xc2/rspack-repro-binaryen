@@ -1,0 +1,10 @@
+ERROR in × JavaScript parsing error: 'import.meta' cannot be used outside of module code.
+   ╭─[1:1]
+ 1 │ 
+ 2 │ const url = require('url').fileURLToPath(new URL('./', import.meta.url));
+   ·                                                        ───────────
+ 3 │ 
+ 4 │ console.log('I\'m not worker!', url);
+   ╰────
+
+Rspack compiled with 1 error in 10 ms
